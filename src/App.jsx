@@ -1,19 +1,18 @@
 import React from 'react';
-import Layout from './components/Layout';
-import Hero from './components/Hero';
-import Context from './components/Context';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
+import Layout from './layout/Layout';
+import HeroSection from './features/welcome/HeroSection';
+import MissionGrid from './features/mission/MissionGrid';
+import QuestionForm from './features/interaction/QuestionForm';
 
 function App() {
   return (
     <Layout>
-      <Hero />
-      <Context />
-      <CallToAction />
-      <Footer />
+      <HeroSection />
+      <MissionGrid />
+      <QuestionForm />
     </Layout>
   );
 }
 
 export default App;
+;
